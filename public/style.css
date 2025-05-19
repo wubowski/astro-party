@@ -1,0 +1,14 @@
+/* public/style.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background: black;
+}
+/* resize window dynamically with browser window size */
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
